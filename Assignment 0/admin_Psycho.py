@@ -1,7 +1,7 @@
 n = int(input("Enter number of elements: "))
 ele = input("Enter space separated values: ")
 lst = []
-lst = ele.split(" ")
+lst = list(map(int, ele.split("")))
 count = 0
 for i in range(n):
     min = i
